@@ -29,14 +29,14 @@ The last trip cause is held in memory as long as control power is present.  A lo
 The trip unit can only log trips based on what it can detect through the breaker CTs and voltage tap (if equipped).  Trips caused by an undervoltage relay or shunt trip are NOT logged as the trip unit does not "detect" them.
 
 ### Trip unit self-test:
->1. Close breaker
->2. From the ETU status screen, select TEST (check screen, but usually F3)
->3. F3 down to "ETU self-test with trip"
->4. F4 to select
->5. Start with T (check screen, but usually F3)
->6. ETU will check itself, a check mark will appear next to each step when passed
->7. After the last check and a brief pause, the breaker will open and display a TRIP caution, which should be logged as TEST.
->8. A failure at any point will stop the test and display a caution or warning as appropriate.
+1. Close breaker
+2. From the ETU status screen, select TEST (check screen, but usually F3)
+3. F3 down to "ETU self-test with trip"
+4. F4 to select
+5. Start with T (check screen, but usually F3)
+6. ETU will check itself, a check mark will appear next to each step when passed
+7. After the last check and a brief pause, the breaker will open and display a TRIP caution, which should be logged as TEST.
+8. A failure at any point will stop the test and display a caution or warning as appropriate.
 
 ### LED Indicators:
 - ACT (Active)
