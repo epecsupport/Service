@@ -1,4 +1,7 @@
-﻿--- ---
+﻿---
+layout: default
+title: 3WA / ETU600
+---
 
 ## 3WA / ETU600
 
