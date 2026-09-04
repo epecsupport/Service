@@ -50,9 +50,4 @@ Trip cause storage and control power considerations:
 
 
 ### Error codes and possible fixes:
-- CURRENT SENSOR N
 - ERROR OPTION PLUG - Check that option plug is correct for the frame size.  Disconnect control power, remove plug, check for bent pins inside trip unit socket or damage to connector on back of option plug.  Reseat until it clicks into place.  Restore control power and re-check. 
-- 
-
-
-> Written with [StackEdit](https://stackedit.io/).
