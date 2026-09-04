@@ -21,6 +21,8 @@ Battery and indicator:
 
 Trip cause storage and control power considerations:
 > The last trip cause is held in memory as long as control power is present.  A loss of control power after a trip will cause the unit to fall back on its internal capacitor to store the cause.  This capacitor requires the ETU to have been active for at least two hours prior to the trip, and has approximately 24 hours of discharge time before the trip cause is lost.  Retrieving the trip cause without control power requires a PC connection or a USB power pack capable of delivering 1.5A.
+> 
+> The trip unit can only log trips based on what it can detect through the breaker CTs and voltage tap (if equipped).  Trips caused by an undervoltage relay or shunt trip are NOT logged as the trip unit does not "detect" them.
 
 ### Trip unit self-test:
 >1. Close breaker
