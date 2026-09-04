@@ -14,14 +14,16 @@ The option plug (referred to as "rating plug" on 3WL) must be fully seated until
 ### Bench testing not possible outside of breaker not possible:
 An ETU600 will NOT power up when disconnected from the ACB, even with an external power source.  
 
-### USB cable and PC specifics:
+### Power, USB cable, and PC specifics:
+If the trip unit needs to be powered via USB, it must have a native USB-C port and the ability to deliver 1.5A at 5VDC.  
+
 To communicate with the trip unit via USB, a PC with a native USB 3.2 "Power Delivery" port with type-C connector must be used, along with a USB-C cable that is capable of delivering both data *and* 1.5A.  For certainty, use a Thunderbolt 4 or 5 compatible cable, as this standard exceeds the requirements ensures that both power and data capability are to the necessary capacity.  I carry a 15W power bank and a Thunderbolt 5 cable and it will reliably power an ETU600.  
 
 ### DAS+ mode (AERMS): 
 DAS+/AERMS can only be deactivated by the same method it was activated.  This is a safety lockout to ensure that the breaker is not accidently switched out of DAS+ mode while someone has the equipment open.  DAS+ mode will be indicated by a bright blue LED, 4th from the left, under the F2 button.
 
 ### Battery and indicator: 
-The battery indicator has three "bars", but these bars do not actually deplete like most battery operated devices.  The indicator is either "full", indicating a good battery, or "empty", indicating the battery needs replacement.  The battery only powers the internal clock, and is a size ½AA, 3.6V lithium.
+The battery indicator has three "bars", but these bars do not actually deplete like most battery operated devices.  The indicator is either "full", indicating a good battery, or "empty", indicating the battery needs replacement.  The battery only powers the internal clock, and is a size ½AA, 3.6V lithium.  Siemens catalogue number 3WA9111-0EE81.
 
 ### Trip cause storage and control power considerations:
 The last trip cause is held in memory as long as control power is present.  A loss of control power after a trip will cause the unit to fall back on its internal capacitor to store the cause.  This capacitor requires the ETU to have been active for at least two hours prior to the trip, and has approximately 24 hours of discharge time before the trip cause is lost.  Retrieving the trip cause without control power requires a PC connection or a USB power pack capable of delivering 1.5A.
@@ -33,7 +35,7 @@ The trip unit can only log trips based on what it can detect through the breaker
 2. From the ETU status screen, select TEST (check screen, but usually F3)
 3. F3 down to "ETU self-test with trip"
 4. F4 to select
-5. Start with T (check screen, but usually F3)
+5. Start with "T" (check screen, but usually F3)
 6. ETU will check itself, a check mark will appear next to each step when passed
 7. After the last check and a brief pause, the breaker will open and display a TRIP caution, which should be logged as TEST.
 8. A failure at any point will stop the test and display a caution or warning as appropriate.
@@ -54,6 +56,12 @@ The trip unit can only log trips based on what it can detect through the breaker
 	- Off - AERMS is not activated.
 	- Blue - AERMS is activated.
 
+### Accessories:
+- The small black lever to engage the lockout is part of the locking provision lever.  If no cylinders are used, the padlock type is default, 3WA9111-0BA37.
+- 3WL shunt trips, closing coils, and charging motors are confirmed interchangeable with 3WA.
+
+### COM 190 Specifics:
+- It is a known limitation that the ETU600 cannot process a firmware update via COM 190.  Unfortunately mass firmware updates must be delivered individually, via the USB-C connection.
 
 ### Error codes and possible fixes:
 - ERROR OPTION PLUG - Check that option plug is correct for the frame size.  Disconnect control power, remove plug, check for bent pins inside trip unit socket or damage to connector on back of option plug.  Reseat until it clicks into place.  Restore control power and re-check. 
