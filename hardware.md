@@ -8,6 +8,7 @@ ALL GRADE 5 UNLESS OTHERWISE NOTED
 
 ## 4000A Bus
 Line side, cable landing points:
+
 | Item  | Size           | Fastenal  | Pkg | McMaster  | Pkg |
 |-------|----------------|-----------|-----|-----------|-----|
 | Bolt  | 1/2"-13 x 3.5" | 110120388 | 10  | 92865A057 | 10  |
