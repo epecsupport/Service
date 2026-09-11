@@ -14,7 +14,7 @@ ALL GRADE 5 UNLESS OTHERWISE NOTED
 | 3/8"-16 x 1.5"  | 11126214 | ea   | 95475A628 | 25  |
 | 3/8"-16 x 2.75" | 11126219 | ea   | 95475A635 | 10  |
 
-## 4000A Bus
+## 4000A Switchboard Bus
 Line side, cable landing points:
 
 | Item  | Size           | Fastenal  | Pkg | McMaster  | Pkg |
@@ -43,7 +43,7 @@ Line side, cable landing points:
 
 ## 4000A Pull Box
 
-## 3000A Bus
+## 3000A SwitchboardBus
 Load side, Eriflex braid to phase bar:
 3/8"-16 x 1.75" w/nut, split lock washer, 2x flat washers
 
