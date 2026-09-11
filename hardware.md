@@ -43,7 +43,7 @@ Line side, cable landing points:
 
 ## 4000A Pull Box
 
-## 3000A SwitchboardBus
+## 3000A Switchboard Bus
 Load side, Eriflex braid to phase bar:
 3/8"-16 x 1.75" w/nut, split lock washer, 2x flat washers
 
@@ -53,5 +53,20 @@ Load side, Eriflex braid to phase bar:
 | Nut   | 3/8"-16         | 1136306   | 50  | 95462A031 | 100 |
 | Split | 3/8"            | 1133622   | 100 | 92507A120 | 50  |
 | Flat  | 3/8"            | 1133008   | 100 | 98023A117 | 50  |
+
+## 3000A Trough w/Goshen flex bus:
+
+| Use                          | Size            | Qty | Fastenal  | Pkg  | McMaster  | Pkg |
+|------------------------------|-----------------|-----|-----------|------|-----------|-----|
+| Support end bolts            | 3/8"-16 x 1"    | 2   | 110120344 | 50   | 92865A624 | 50  |
+| Set screw, insulator joining | 3/8"-16 x 1"    | 3   | 11126212  | 2270 | 95475A624 | 25  |
+| Set screw, through bus       | 3/8"-16 x 1.5"  | 4   | 11126214  | ea   | 95475A628 | 25  |
+| Bolt, trough bus to SWBD bus | 1/2"-13 x 2.25" | 32  | 110120383 | 20   | 91247A721 | 10  |
+| Bolt, braid to bus/MVT stab  | 1/2"-13 x 2.75" | 16  | 110120385 | 20   | 91247A723 | 10  |
+| Lock washer for 3/8" bolts   | 3/8"            | 2   | 1133622   | 100  | 92507A120 | 50  |
+| Flat washer for 3/8" bolts   | 3/8"            | 2   | 1133008   | 100  | 98023A117 | 50  |
+| Lock washer for 1/2" bolts   | 1/2"            | 48  | 1133626   | 50   | 92507A130 | 25  |
+| Flat washer for 1/2" bolts   | 1/2"            | 96  | 1133012   | 50   | 98023A118 | 25  |
+| Nut for 1/2" bolts           | 1/2"-13         | 48  | 1136310   | 25   | 95462A033 | 100 |
 
 Here Be Dragons
