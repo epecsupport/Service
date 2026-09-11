@@ -7,10 +7,10 @@ title: 3WA / ETU600
 ALL GRADE 5 UNLESS OTHERWISE NOTED
 
 Torque Specifications:
-• 1/4”-20 – 8 lbs-ft
-• 5/16”-18 – 15 lbs-ft
-• 3/8”-16 – 26 lbs-ft
-• 1/2” -13 – 64 lbs-ft
+- 1/4”-20 – 8 lbs-ft
+- 5/16”-18 – 15 lbs-ft
+- 3/8”-16 – 26 lbs-ft
+- 1/2” -13 – 64 lbs-ft
 
 ## Set screws to join insulators:
 
