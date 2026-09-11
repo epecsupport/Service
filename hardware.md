@@ -92,4 +92,14 @@ Load side, Eriflex braid to phase bar:
 | Flat washer for 1/2" bolts   | 1/2"            | 96  | 1133012   | 50   | 98023A118 | 25  |
 | Nut for 1/2" bolts           | 1/2"-13         | 48  | 1136310   | 25   | 95462A033 | 100 |
 
+## Spacers
+
+| Description                       | Application           | Qty | QT Part No |
+|-----------------------------------|-----------------------|-----|------------|
+| Braid spacer, 4 hole              | 4000A Trough Flex Bus | 12  | QT-00255   |
+| Support stack spacer, single hole | 4000A Trough Flex Bus | 24  | QTIS-00012 |
+|                                   |                       |     |            |
+|                                   |                       |     |            |
+
+
 Here Be Dragons
