@@ -31,7 +31,7 @@ Line side, cable landing points:
 | MVT side support end bolts    | 3/8"-16 x 1"    | 2   | 110120344 | 50   | 92865A624 | 50  |
 | Set screw, 2"-2.75" insulator | 3/8"-16 x 1"    | 6   | 11126212  | 2270 | 95475A624 | 25  |
 | Set screw, through bus        | 3/8"-16 x 2.75" | 6   | 11126219  | ea   | 95475A635 | 10  |
-| SWBD side support end bolts   | 3/8"-16 x 2.5"  | 2   | 110120350 | 50   | 92865A34  | 10  |
+| SWBD side support end bolts   | 3/8"-16 x 2.5"  | 2   | 110120350 | 50   | 92865A634 | 10  |
 | Bolt, trough bus to SWBD bus  | 1/2"-13 x 3"    | 20  | 110120386 | 10   | 91247A724 | 10  |
 | Bolt, braid to MVT stab       | 1/2"-13 x 3"    | 12  | 110120386 | 10   | 91247A724 | 10  |
 | Bolt, braid to trough bus     | 1/2"-13 x 4"    | 16  | 110120390 | 10   | 91247A728 | 10  |
@@ -42,6 +42,23 @@ Line side, cable landing points:
 | Nut for 1/2" bolts            | 1/2"-13         | 52  | 1136310   | 25   | 95462A033 | 100 |
 
 ## 4000A Pull Box
+
+| Use                           | Size                  | Qty | Fastenal  | Pkg  | McMaster  | Pkg |
+|-------------------------------|-----------------------|-----|-----------|------|-----------|-----|
+| Set screw, short              | 3/8"-16 x 1"          | 6   | 11126212  | 2270 | 95475A624 | 25  |
+| Set screw, long               | 3/8"-16 x 1.5"        | 9   | 11126214  | ea   | 95475A628 | 25  |
+| Spacer, aluminum              | .38 ID/.75 OD/.25 THK | 2   | N/A       |      | 92510A491 | ea  |
+| Coupling nut (for ground bar) | 3/8"-16 x 1.75"       | 2   | N/A       |      | 91920A093 | ea  |
+| Spring channel nut            | 3/8"-16               | 14  | N/A       |      | 3259T14   | ea  |
+| Bolt, insulator stack end     | 3/8"-16 x .75"        | 3   | 110120342 | 50   | 92865A622 | 50  |
+| Bolt, unistrut bracket        | 3/8"-16 x 1"          | 21  | 110120344 | 50   | 92865A624 | 50  |
+| Bolt, unistrut bracket        | 3/8"-16 x 1.25"       | 10  | 110120345 | 50   | 92865A626 | 50  |
+| Bolt, transition joining      | 1/2"-13 x 2.5"        | 16  | 110120384 | 10   | 91247A722 | 10  |
+| Lock washer for 3/8" bolts    | 3/8"                  | 34  | 1133622   | 100  | 92507A120 | 50  |
+| Flat washer for 3/8" bolts    | 3/8"                  | 34  | 1133008   | 100  | 98023A117 | 50  |
+| Lock washer for 1/2" bolts    | 1/2"                  | 16  | 1133626   | 50   | 92507A130 | 25  |
+| Flat washer for 1/2" bolts    | 1/2"                  | 32  | 1133012   | 50   | 98023A118 | 25  |
+| Nut for 1/2" bolts            | 1/2"-13               | 16  | 1136310   | 25   | 95462A033 | 100 |
 
 ## 3000A Switchboard Bus
 Load side, Eriflex braid to phase bar:
