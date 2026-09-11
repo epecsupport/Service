@@ -6,6 +6,14 @@ title: 3WA / ETU600
 # Standard Hardware:
 ALL GRADE 5 UNLESS OTHERWISE NOTED
 
+## Set screws to join insulators:
+
+| Size            | Fastenal | Pkg  | McMaster  | Pkg |
+|-----------------|----------|------|-----------|-----|
+| 3/8"-16 x 1"    | 11126212 | 2270 | 95475A624 | 25  |
+| 3/8"-16 x 1.5"  | 11126214 | ea   | 95475A628 | 25  |
+| 3/8"-16 x 2.75" | 11126219 | ea   | 95475A635 | 10  |
+
 ## 4000A Bus
 Line side, cable landing points:
 
@@ -16,12 +24,34 @@ Line side, cable landing points:
 | Split | 1/2"           | 1133626   | 50  | 92507A130 | 25  |
 | Flat  | 1/2"           | 1133012   | 50  | 98023A118 | 25  |
 
-## 4000A Trough
+## 4000A Trough w/Goshen flex bus:
+
+| Use                           | Size            | Qty | Fastenal  | Pkg  | McMaster  | Pkg |
+|-------------------------------|-----------------|-----|-----------|------|-----------|-----|
+| MVT side support end bolts    | 3/8"-16 x 1"    | 2   | 110120344 | 50   | 92865A624 | 50  |
+| Set screw, 2"-2.75" insulator | 3/8"-16 x 1"    | 6   | 11126212  | 2270 | 95475A624 | 25  |
+| Set screw, through bus        | 3/8"-16 x 2.75" | 6   | 11126219  | ea   | 95475A635 | 10  |
+| SWBD side support end bolts   | 3/8"-16 x 2.5"  | 2   | 110120350 | 50   | 92865A34  | 10  |
+| Bolt, trough bus to SWBD bus  | 1/2"-13 x 3"    | 20  | 110120386 | 10   | 91247A724 | 10  |
+| Bolt, braid to MVT stab       | 1/2"-13 x 3"    | 12  | 110120386 | 10   | 91247A724 | 10  |
+| Bolt, braid to trough bus     | 1/2"-13 x 4"    | 16  | 110120390 | 10   | 91247A728 | 10  |
+| Lock washer for 3/8" bolts    | 3/8"            | 4   | 1133622   | 100  | 92507A120 | 50  |
+| Flat washer for 3/8" bolts    | 3/8"            | 4   | 1133008   | 100  | 98023A117 | 50  |
+| Lock washer for 1/2" bolts    | 1/2"            | 52  | 1133626   | 50   | 92507A130 | 25  |
+| Flat washer for 1/2" bolts    | 1/2"            | 104 | 1133012   | 50   | 98023A118 | 25  |
+| Nut for 1/2" bolts            | 1/2"-13         | 52  | 1136310   | 25   | 95462A033 | 100 |
 
 ## 4000A Pull Box
 
 ## 3000A Bus
 Load side, Eriflex braid to phase bar:
 3/8"-16 x 1.75" w/nut, split lock washer, 2x flat washers
+
+| Item  | Size            | Fastenal  | Pkg | McMaster  | Pkg |
+|-------|-----------------|-----------|-----|-----------|-----|
+| Bolt  | 3/8"-16 x 1.75" | 110120347 | 50  | 92865A630 | 25  |
+| Nut   | 3/8"-16         | 1136306   | 50  | 95462A031 | 100 |
+| Split | 3/8"            | 1133622   | 100 | 92507A120 | 50  |
+| Flat  | 3/8"            | 1133008   | 100 | 98023A117 | 50  |
 
 Here Be Dragons
