@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3WA / ETU600
+title: 3WA / ETU600 (Español)
 ---
 
 ## 3WA / ETU600
