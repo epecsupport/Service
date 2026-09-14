@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3WA / ETU600
+title: Hardware List
 ---
 
 # Standard Hardware:
