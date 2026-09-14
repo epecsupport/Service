@@ -30,7 +30,7 @@ Line side, cable landing points:
 | Split | 1/2"           | 1133626   | 50  | 92507A130 | 25  |
 | Flat  | 1/2"           | 1133012   | 50  | 98023A118 | 25  |
 
-## 4000A Trough w/Goshen flex bus:
+## 4000A Trough w/Goshen flex bus QT-A00074:
 
 | Use                           | Size            | Qty | Fastenal  | Pkg  | McMaster  | Pkg |
 |-------------------------------|-----------------|-----|-----------|------|-----------|-----|
@@ -77,7 +77,7 @@ Load side, Eriflex braid to phase bar:
 | Split | 3/8"            | 1133622   | 100 | 92507A120 | 50  |
 | Flat  | 3/8"            | 1133008   | 100 | 98023A117 | 50  |
 
-## 3000A Trough w/Goshen flex bus:
+## 3000A Trough w/Goshen flex bus QT-A00076:
 
 | Use                          | Size            | Qty | Fastenal  | Pkg  | McMaster  | Pkg |
 |------------------------------|-----------------|-----|-----------|------|-----------|-----|
