@@ -94,12 +94,13 @@ Load side, Eriflex braid to phase bar:
 
 ## Spacers
 
-| Description                       | Application           | Qty | QT Part No |
-|-----------------------------------|-----------------------|-----|------------|
-| Braid spacer, 4 hole              | 4000A Trough Flex Bus | 12  | QT-00255   |
-| Support stack spacer, single hole | 4000A Trough Flex Bus | 24  | QTIS-00012 |
-|                                   |                       |     |            |
-|                                   |                       |     |            |
-
+| Description                          | Application              | Qty | QT Part No  |
+|--------------------------------------|--------------------------|-----|-------------|
+| Braid spacer, 4 hole                 | 4000A Trough Flex Bus    | 12  | QT-00255    |
+| Support stack spacer, single hole    | 4000A Trough Flex Bus    | 24  | QTIS-00012  |
+| Main bus spacer, 5 hole              | 4000A Cable Type 8400033 | 6   | QTIS-00002B |
+| Spacer for lug, 2 hole 1.75" spacing | 4000A Cable Type 8400033 | 60  | QT-00018    |
+| Spacer 2 hole for flexibus anchor 5" | 4000A Cable Type 8400033 | 48  | QTIS-00021B |
+| Spacer 1 hole 5"                     | 4000A Cable Type 8400033 | 96  | QTIS-00012  |
 
 Here Be Dragons
