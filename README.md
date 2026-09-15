@@ -29,7 +29,7 @@ Technician-facing field reference docs, published as bookmarkable web pages via 
 
 3. Write content in standard markdown. A few things specific to this site:
    - **Tables need a blank line before them.** Text immediately followed by a table (no blank line) gets swallowed into one paragraph and the pipes render as literal characters instead of a table.
-   - **Emails and phone numbers are NOT auto-linked by default.** To turn it on for a page, add `autolink: true` to that page's front matter (currently set on `contacts.md` and `salestax.md`). On pages without it, link manually: `[name@epec.com](mailto:name@epec.com)` or `[555-1234](tel:5551234)`.
+   - **Emails, phone numbers, and bare URLs are NOT auto-linked by default.** To turn it on for a page, add `autolink: true` to that page's front matter (currently set on `contacts.md` and `salestax.md`). On pages without it, link manually: `[name@epec.com](mailto:name@epec.com)`, `[555-1234](tel:5551234)`, or standard `[text](https://...)` links.
    - External links (anything off this domain) automatically open in a new tab — no extra markup needed.
 4. Commit to `main`. GitHub Pages rebuilds automatically, usually live within a minute or two.
 5. If you want the page discoverable from the homepage, add a link to it in `index.md`.
