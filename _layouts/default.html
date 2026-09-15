@@ -61,5 +61,55 @@
 </head>
 <body>
   {{ content }}
+  <script>
+  document.querySelectorAll('a[href^="http"]').forEach(link => {
+    if (!link.href.includes(window.location.hostname)) {
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+    }
+  });
+</script>  
+  <script>
+  function autoLinkContacts(root) {
+    const combined = /([\w.+-]+@[\w-]+\.[\w.-]+)|(\(?\d{3}\)?[-.\s]\d{3}[-.\s]\d{4})/g;
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        if (node.parentElement.closest('a, script, style')) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    const nodes = [];
+    let n;
+    while (n = walker.nextNode()) nodes.push(n);
+
+    nodes.forEach(node => {
+      const text = node.nodeValue;
+      combined.lastIndex = 0;
+      if (!combined.test(text)) return;
+      combined.lastIndex = 0;
+
+      const frag = document.createDocumentFragment();
+      let lastIndex = 0, match;
+      while (match = combined.exec(text)) {
+        frag.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+        const a = document.createElement('a');
+        if (match[1]) {
+          a.href = 'mailto:' + match[1];
+        } else {
+          a.href = 'tel:' + match[2].replace(/\D/g, '');
+        }
+        a.textContent = match[0];
+        frag.appendChild(a);
+        lastIndex = combined.lastIndex;
+      }
+      frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+
+  if (window.location.pathname.toLowerCase().includes('contacts')) {
+    autoLinkContacts(document.body);
+  }
+</script>
 </body>
 </html>
