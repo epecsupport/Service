@@ -60,7 +60,7 @@
 </style>
 </head>
 <body>
-  {{ content }}
+  {{ content }} {% if page.autolink %} {% endif %}
   <script>
   document.querySelectorAll('a[href^="http"]').forEach(link => {
     if (!link.href.includes(window.location.hostname)) {
