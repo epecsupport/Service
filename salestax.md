@@ -1,3 +1,9 @@
+---
+layout: default
+title: Sales Tax Authorities
+autolink: true
+---
+
 # Sales tax authorities by state:
 
 | State         | Type                      | Website                                                                            | Notes                                                   |
