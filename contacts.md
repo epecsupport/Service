@@ -17,7 +17,7 @@ title: Contacts
 | Ray Wilson      | 336-272-7537 | [ray.wilson@techni-reps.com](mailto:ray.wilson@techni-reps.com)           |
 | Chase Faircloth | 336-272-7537 | [chase.faircloth@techni-reps.com](mailto:chase.faircloth@techni-reps.com) |
 
-## Powertran:
+## [Powertran](https://powertran.com/):
 
 | Name       | Phone        | Email                                         |
 |------------|--------------|-----------------------------------------------|
