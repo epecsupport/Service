@@ -5,7 +5,7 @@ title: Contacts
 
 # Contacts List:
 
-## Siemens:
+## Siemens
 
 | Siemens Technical Support 	| 800-333-7421 	| [https://support.industry.siemens.com](https://support.industry.siemens.com) 	|
 
@@ -17,7 +17,7 @@ title: Contacts
 | Ray Wilson      | 336-272-7537 | [ray.wilson@techni-reps.com](mailto:ray.wilson@techni-reps.com)           |
 | Chase Faircloth | 336-272-7537 | [chase.faircloth@techni-reps.com](mailto:chase.faircloth@techni-reps.com) |
 
-## [Powertran](https://powertran.com/):
+## [Powertran](https://powertran.com/)
 
 | Name       | Phone        | Email             |
 |------------|--------------|-------------------|
