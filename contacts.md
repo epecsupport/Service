@@ -9,7 +9,7 @@ title: Contacts
 
 | Siemens Technical Support 	| 800-333-7421 	| [https://support.industry.siemens.com](https://support.industry.siemens.com) 	|
 
-## [Techni-Reps, Inc.](https://www.techni-reps.com/) (Boltswitch/Socomec, Noark, TCI, Marathon) 
+## [Techni-Reps, Inc.](https://www.techni-reps.com/) (Boltswitch/Socomec, Noark, TCI) 
 
 | Name            | Phone        | Email                                                                     |
 |-----------------|--------------|---------------------------------------------------------------------------|
@@ -23,3 +23,9 @@ title: Contacts
 |------------|--------------|-------------------|
 | Jae Schalk | 248-808-2706 | jae@powertran.com |
 
+## [Schweitzer Engineering Laboratories (SEL)](http://selinc.com)
+
+| Name                                | Phone        | Email                    |
+|-------------------------------------|--------------|--------------------------|
+| SEL Technical Support               | 509-338-3838 | SE_Support@selinc.com    |
+| SEL Cust. Service (RFQ, Lead Times) | 509-339-1410 | SEL_Southeast@selinc.com |
