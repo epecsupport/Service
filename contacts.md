@@ -19,7 +19,7 @@ title: Contacts
 
 ## [Powertran](https://powertran.com/):
 
-| Name       | Phone        | Email                                         |
-|------------|--------------|-----------------------------------------------|
-| Jae Schalk | 248-808-2706 | [jae@powertran.com](mailto:jae@powertran.com) |
+| Name       | Phone        | Email             |
+|------------|--------------|-------------------|
+| Jae Schalk | 248-808-2706 | jae@powertran.com |
 
