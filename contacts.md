@@ -11,7 +11,7 @@ NOTE: Customers can reach out to Siemens via this method for advanced troublesho
 
 | Siemens Technical Support 	| 800-333-7421 	| [https://support.industry.siemens.com](https://support.industry.siemens.com) 	|
 
-[Electrical Equipment Company (EECO)](https://eecoonline.com)
+## [Electrical Equipment Company (EECO)](https://eecoonline.com)
 
 QT Account no: 16911
 EPEC ship-to code: 32805
