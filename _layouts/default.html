@@ -1,68 +1,3 @@
-
-Claude finished the response
-Used Claude in Chrome integration
-Found it — looks like the paste got mangled. Right now line 63 in your file reads:
-
-{{ content }} {% if page.autolink %} {% endif %}
-The Liquid tags ended up empty and on the same line as {{ content }}, and the second script below still has the old window.location.pathname.includes('contacts') check instead of being wrapped in the {% if page.autolink %} conditional. So right now, autolinking still only fires on pages with "contacts" in the URL — salestax.md isn't actually getting it.
-
-Here's the complete, correct file again — this time, easiest way to avoid another mismatched paste is to select all existing content in GitHub's editor (Ctrl+A / Cmd+A) and delete it before pasting this in, rather than pasting on top:
-
-Created a file, shared files, used Claude in Chrome integration
-Also noticed while I was in there: contacts.md still doesn't have autolink: true in its front matter, and there's now an inventory.md in the repo that wasn't there before — if that one needs autolinking too, add the same line to it.
-
-Since I'm still connected to your browser, want me to just open the file editor and paste this in directly, so you don't have to do the copy-paste yourself? I'd show you the diff before committing.
-
-
-Default
-Code·HTML 
-Please
-
-Used Claude in Chrome integration, loaded tools, ran a command
-Top and bottom both look clean — pasted correctly via clipboard rather than simulated keystrokes, so nothing got merged or dropped this time. Before I commit, here's what's staged:
-
-Computer
-That's the correct head/CSS section. It pastes as one continuous file, 117 lines total, ending cleanly with the {% if page.autolink %} block wrapping the second script and {% endif %} before </body></html> — matching exactly what I gave you. Want me to go ahead and click Commit changes...?
-
-I got it, but thank you.
-
-Tabs Close
-Sounds good — it's all staged and ready whenever you want to hit commit. Good luck with the rollout!
-
-salestax.html still isn't generating links.
-
-Used Claude in Chrome integration
-Good catch — but this isn't actually a bug in what got committed. Both _layouts/default.html and salestax.md's front matter are correct and matched what we set up. The real issue: salestax.md has no emails or phone numbers in it at all — it's entirely web addresses (https://maps.cdtfa.ca.gov/, etc.), and the auto-link script we built only ever looked for email and phone patterns. Bare URLs were never something it detected, so there was nothing for it to link on this page regardless of the front matter or the earlier paste mishap.
-
-Easy fix — extend the same regex to recognize plain http:///https:// text as a third pattern:
-
-Edited a file, shared files
-Two changes in the updated script:
-
-Added a third pattern for bare http(s):// URLs to the same regex
-URL matches get target="_blank" set directly on the new link (the separate "open external links in a new tab" script already ran by the time this one creates these elements, so they'd otherwise be missed)
-The function's also renamed autoLinkPage since it's no longer contacts-specific. Paste the whole file over _layouts/default.html the same way as before, and salestax.md's URLs should go clickable once it rebuilds — no changes needed to salestax.md itself.
-
-Let me also update the README to reflect that autolinking now covers URLs, not just email/phone.
-
-Read a file, edited a file, shared files
-Both updated. Let me know if you'd like me to paste the default.html change in via the browser again, or if you've got it from here.
-
-
-Default
-Code·HTML 
-
-Readme
-Document·MD 
-
-
-
-
-
-Claude is AI and can make mistakes. Please double-check responses.
-
-
-Default · HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,7 +25,7 @@ Default · HTML
       border-radius: 4px;
     }
     a { color: #0066cc; }
- 
+
     @media (prefers-color-scheme: dark) {
       body {
         background: #1a1a1a;
@@ -103,7 +38,7 @@ Default · HTML
       }
       a { color: #6db3f2; }
     }
- 
+
     table {
       border-collapse: collapse;
       width: 100%;
@@ -118,7 +53,7 @@ Default · HTML
       background: #f0f0f0;
       font-weight: 600;
     }
- 
+
     @media (prefers-color-scheme: dark) {
       th, td { border-color: #444; }
       th { background: #2d2d2d; }
@@ -127,7 +62,7 @@ Default · HTML
 </head>
 <body>
   {{ content }}
- 
+
   <script>
     document.querySelectorAll('a[href^="http"]').forEach(link => {
       if (!link.href.includes(window.location.hostname)) {
@@ -136,7 +71,7 @@ Default · HTML
       }
     });
   </script>
- 
+
   {% if page.autolink %}
   <script>
     function autoLinkPage(root) {
@@ -150,13 +85,13 @@ Default · HTML
       const nodes = [];
       let n;
       while (n = walker.nextNode()) nodes.push(n);
- 
+
       nodes.forEach(node => {
         const text = node.nodeValue;
         combined.lastIndex = 0;
         if (!combined.test(text)) return;
         combined.lastIndex = 0;
- 
+
         const frag = document.createDocumentFragment();
         let lastIndex = 0, match;
         while (match = combined.exec(text)) {
@@ -184,4 +119,3 @@ Default · HTML
   {% endif %}
 </body>
 </html>
- 
