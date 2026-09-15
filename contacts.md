@@ -11,14 +11,16 @@ NOTE: Customers can reach out to Siemens via this method for advanced troublesho
 
 | Siemens Technical Support 	| 800-333-7421 	| [https://support.industry.siemens.com](https://support.industry.siemens.com) 	|
 
+[Electrical Equipment Company (EECO)](https://eecoonline.com)
 
-## [Techni-Reps, Inc.](https://www.techni-reps.com/) (Boltswitch/Socomec, Noark, TCI) 
+QT Account no: 16911
+EPEC ship-to code: 32805
 
-| Name            | Phone        | Email                                                                     |
-|-----------------|--------------|---------------------------------------------------------------------------|
-| Bob Wilson      | 336-210-2194 | [bob.wilson@techni-reps.com](mailto:bob.wilson@techni-reps.com)           |
-| Ray Wilson      | 336-272-7537 | [ray.wilson@techni-reps.com](mailto:ray.wilson@techni-reps.com)           |
-| Chase Faircloth | 336-272-7537 | [chase.faircloth@techni-reps.com](mailto:chase.faircloth@techni-reps.com) |
+| Name            | Title         | Phone        | Email                        |
+|-----------------|---------------|--------------|------------------------------|
+| Mike Gardner    | Inside Sales  | 919-754-5112 | mike.gardner@eeco-net.com    |
+| Harold Smith    | Outside Sales | 919-906-2858 | Harold.Smith@eeco-net.com    |
+| Jessica Parrett | RMA/Warranty  | 804-915-4708 | jessica.parrett@eeco-net.com |
 
 ## [Powertran](https://powertran.com/)
 
@@ -32,3 +34,11 @@ NOTE: Customers can reach out to Siemens via this method for advanced troublesho
 |-------------------------------------|--------------|--------------------------|
 | SEL Technical Support               | 509-338-3838 | SE_Support@selinc.com    |
 | SEL Cust. Service (RFQ, Lead Times) | 509-339-1410 | SEL_Southeast@selinc.com |
+
+## [Techni-Reps, Inc.](https://www.techni-reps.com/) (Boltswitch/Socomec, Noark, TCI) 
+
+| Name            | Phone        | Email                                                                     |
+|-----------------|--------------|---------------------------------------------------------------------------|
+| Bob Wilson      | 336-210-2194 | [bob.wilson@techni-reps.com](mailto:bob.wilson@techni-reps.com)           |
+| Ray Wilson      | 336-272-7537 | [ray.wilson@techni-reps.com](mailto:ray.wilson@techni-reps.com)           |
+| Chase Faircloth | 336-272-7537 | [chase.faircloth@techni-reps.com](mailto:chase.faircloth@techni-reps.com) |
