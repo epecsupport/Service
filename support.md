@@ -5,5 +5,5 @@ autolink: true
 ---
 
 ## Support Staff Information:
-[Inventory procedures](inventory.html)
-[Sales tax information](salestax.html)
+- [Inventory procedures](inventory.html)
+- [Sales tax information](salestax.html)
