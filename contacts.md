@@ -7,7 +7,7 @@ title: Contacts
 
 ## Siemens
 
-NOTE: Customers can reach out via this method as well for advanced troubleshooting information.  
+NOTE: Customers can reach out to Siemens via this method for advanced troubleshooting information.  
 
 | Siemens Technical Support 	| 800-333-7421 	| [https://support.industry.siemens.com](https://support.industry.siemens.com) 	|
 
