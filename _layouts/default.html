@@ -25,7 +25,7 @@
       border-radius: 4px;
     }
     a { color: #0066cc; }
-  
+
     @media (prefers-color-scheme: dark) {
       body {
         background: #1a1a1a;
@@ -35,81 +35,83 @@
       code, pre {
         background: #2d2d2d;
         color: #e0e0e0;
+      }
+      a { color: #6db3f2; }
     }
-    a { color: #6db3f2; }
-    }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 1em 0;
-  }
-  th, td {
-    border: 1px solid #ccc;
-    padding: 8px 12px;
-    text-align: left;
-  }
-  th {
-    background: #f0f0f0;
-    font-weight: 600;
-  }
 
-  @media (prefers-color-scheme: dark) {
-    th, td { border-color: #444; }
-    th { background: #2d2d2d; }
-  }
-</style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1em 0;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      th, td { border-color: #444; }
+      th { background: #2d2d2d; }
+    }
+  </style>
 </head>
 <body>
-  {{ content }} {% if page.autolink %} {% endif %}
+  {{ content }}
+
   <script>
-  document.querySelectorAll('a[href^="http"]').forEach(link => {
-    if (!link.href.includes(window.location.hostname)) {
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-    }
-  });
-</script>  
-  <script>
-  function autoLinkContacts(root) {
-    const combined = /([\w.+-]+@[\w-]+\.[\w.-]+)|(\(?\d{3}\)?[-.\s]\d{3}[-.\s]\d{4})/g;
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-      acceptNode(node) {
-        if (node.parentElement.closest('a, script, style')) return NodeFilter.FILTER_REJECT;
-        return NodeFilter.FILTER_ACCEPT;
+    document.querySelectorAll('a[href^="http"]').forEach(link => {
+      if (!link.href.includes(window.location.hostname)) {
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
       }
     });
-    const nodes = [];
-    let n;
-    while (n = walker.nextNode()) nodes.push(n);
+  </script>
 
-    nodes.forEach(node => {
-      const text = node.nodeValue;
-      combined.lastIndex = 0;
-      if (!combined.test(text)) return;
-      combined.lastIndex = 0;
-
-      const frag = document.createDocumentFragment();
-      let lastIndex = 0, match;
-      while (match = combined.exec(text)) {
-        frag.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
-        const a = document.createElement('a');
-        if (match[1]) {
-          a.href = 'mailto:' + match[1];
-        } else {
-          a.href = 'tel:' + match[2].replace(/\D/g, '');
+  {% if page.autolink %}
+  <script>
+    function autoLinkContacts(root) {
+      const combined = /([\w.+-]+@[\w-]+\.[\w.-]+)|(\(?\d{3}\)?[-.\s]\d{3}[-.\s]\d{4})/g;
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+          if (node.parentElement.closest('a, script, style')) return NodeFilter.FILTER_REJECT;
+          return NodeFilter.FILTER_ACCEPT;
         }
-        a.textContent = match[0];
-        frag.appendChild(a);
-        lastIndex = combined.lastIndex;
-      }
-      frag.appendChild(document.createTextNode(text.slice(lastIndex)));
-      node.parentNode.replaceChild(frag, node);
-    });
-  }
+      });
+      const nodes = [];
+      let n;
+      while (n = walker.nextNode()) nodes.push(n);
 
-  if (window.location.pathname.toLowerCase().includes('contacts')) {
+      nodes.forEach(node => {
+        const text = node.nodeValue;
+        combined.lastIndex = 0;
+        if (!combined.test(text)) return;
+        combined.lastIndex = 0;
+
+        const frag = document.createDocumentFragment();
+        let lastIndex = 0, match;
+        while (match = combined.exec(text)) {
+          frag.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+          const a = document.createElement('a');
+          if (match[1]) {
+            a.href = 'mailto:' + match[1];
+          } else {
+            a.href = 'tel:' + match[2].replace(/\D/g, '');
+          }
+          a.textContent = match[0];
+          frag.appendChild(a);
+          lastIndex = combined.lastIndex;
+        }
+        frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+        node.parentNode.replaceChild(frag, node);
+      });
+    }
     autoLinkContacts(document.body);
-  }
-</script>
+  </script>
+  {% endif %}
 </body>
 </html>
