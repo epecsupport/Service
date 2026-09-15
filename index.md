@@ -9,3 +9,4 @@ title: EPEC Field Documentation
 - [Standard Hardware](hardware.html)
 - [Contacts](contacts.html)
   
+- [Office Staff Helps](support.html)
