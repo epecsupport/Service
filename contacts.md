@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contacts
+autolink: true
 ---
 
 # Contacts List:
