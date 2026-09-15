@@ -9,7 +9,7 @@ title: Contacts
 
 | Siemens Technical Support 	| 800-333-7421 	| [https://support.industry.siemens.com](https://support.industry.siemens.com) 	|
 
-## Techni-Reps, Inc. (Boltswitch/Socomec, Noark, TCI, Marathon) 
+## [Techni-Reps, Inc.](https://www.techni-reps.com/) (Boltswitch/Socomec, Noark, TCI, Marathon) 
 
 | Name            | Phone        | Email                                                                     |
 |-----------------|--------------|---------------------------------------------------------------------------|
