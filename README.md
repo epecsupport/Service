@@ -13,6 +13,7 @@ Technician-facing field reference docs, published as bookmarkable web pages via 
 | [3WA / ETU600 (Español)](https://epecsupport.github.io/Service/3WA_ES.html) | `3WA_ES.md` |
 | [Hardware List](https://epecsupport.github.io/Service/hardware.html) | `hardware.md` |
 | [Contacts](https://epecsupport.github.io/Service/contacts.html) | `contacts.md` |
+| [Sales Tax](https://epecsupport.github.io/Service/salestax.html) | `salestax.md` |
 
 ## Adding a new page
 
@@ -28,7 +29,7 @@ Technician-facing field reference docs, published as bookmarkable web pages via 
 
 3. Write content in standard markdown. A few things specific to this site:
    - **Tables need a blank line before them.** Text immediately followed by a table (no blank line) gets swallowed into one paragraph and the pipes render as literal characters instead of a table.
-   - **Emails and phone numbers are NOT auto-linked** except on `contacts.md` (see below). Elsewhere, link them manually: `[name@epec.com](mailto:name@epec.com)` or `[555-1234](tel:5551234)`.
+   - **Emails and phone numbers are NOT auto-linked by default.** To turn it on for a page, add `autolink: true` to that page's front matter (currently set on `contacts.md` and `salestax.md`). On pages without it, link manually: `[name@epec.com](mailto:name@epec.com)` or `[555-1234](tel:5551234)`.
    - External links (anything off this domain) automatically open in a new tab — no extra markup needed.
 4. Commit to `main`. GitHub Pages rebuilds automatically, usually live within a minute or two.
 5. If you want the page discoverable from the homepage, add a link to it in `index.md`.
@@ -52,7 +53,7 @@ index.md, *.md        — the actual doc pages
 - **Home screen icon:** iOS "Add to Home Screen" uses `assets/apple-icon-precomposed.png`. Note: iOS caches this at the moment a page is added to a home screen — updating the image later won't refresh existing shortcuts. Users need to remove the icon, clear Safari's site data, and re-add it.
 - **Light/dark mode:** follows the phone's system setting automatically via `prefers-color-scheme` — no toggle, no configuration needed per page.
 - **External links open in a new tab** automatically (any link whose host differs from this site's).
-- **Auto-linking of emails/phone numbers** only runs on pages whose URL path contains "contacts" (currently just `contacts.md`). This is intentionally scoped — the detection regex could otherwise mislink part numbers or quantities in the hardware tables.
+- **Auto-linking of emails/phone numbers** is opt-in per page via `autolink: true` in that page's front matter (a Liquid `{% if page.autolink %}` conditional in the layout controls it). This is intentionally opt-in rather than site-wide — the detection regex could otherwise mislink part numbers or quantities in the hardware tables.
 
 ## Known constraints
 
