@@ -12,6 +12,13 @@ Torque Specifications:
 - 3/8”-16 – 26 lbs-ft
 - 1/2” -13 – 64 lbs-ft
 
+## Dead front screws:
+
+| Size            | Type            | Fastenal | Pkg  | McMaster  | Pkg | 
+|-----------------|-----------------|----------|------|-----------|-----|
+| 1/4"-20 x 0.5"  | Hex flange head | 1132407  | 100  | 90096A537 | 50  |
+*Hoffman enclosures only, AmProd uses a different hex socket pan head screw.
+
 ## Set screws to join insulators:
 
 | Size            | Fastenal | Pkg  | McMaster  | Pkg |
