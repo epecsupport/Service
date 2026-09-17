@@ -6,6 +6,8 @@ autolink: true
 
 ## Siemens Technical Information
 
+### Siemens trip setting terminology [View](../../library/TSB_20251212.pdf) / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/library/TSB_20251212.pdf)
+
 ### 3WA ACB
 - [Manuals/Install Sheets](man3wa.md)
 - ETU 600
