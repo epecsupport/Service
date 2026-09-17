@@ -26,4 +26,4 @@ autolink: true
 - OUTPUT Main CB = Siemens # 3VA4150-5ED34 ( 35 kA @ 480V )
 - OUTPUT Feeder CB = Siemens # BDQ Series ( 14 kA @ 480V )
 
-### Original Bulletin w/breaker catalogues - [View](../Library/MPC-Breaker-Job-Aid.pdf / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/library/MPC-Breaker-Job-Aid.pdf)
+### Original Bulletin w/breaker catalogues - [View](../Library/MPC-Breaker-Job-Aid.pdf) / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/library/MPC-Breaker-Job-Aid.pdf)
