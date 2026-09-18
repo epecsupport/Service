@@ -9,5 +9,7 @@ autolink: true
 - [Sales tax information](support/salestax.html)
 - [Powertran Breaker Guide](support/mpcbreakers.html)
 - [Erico to Mar-Bal interchange](support/marbal.html)
+
+- [Quotable Lead Times](support/leadtimes.html)
 <!-- https://raw.githubusercontent.com/epecsupport/Service/main/library/MPC-Breaker-Job-Aid.pdf -->
 
