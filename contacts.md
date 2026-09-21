@@ -21,6 +21,7 @@ EPEC ship-to code: 32805
 |-----------------|---------------|--------------|------------------------------|
 | Mike Gardner    | Inside Sales  | 919-754-5112 | mike.gardner@eeco-net.com    |
 | Harold Smith    | Outside Sales | 919-906-2858 | Harold.Smith@eeco-net.com    |
+| Kelley Brandt   | Key Acct Mgr  | 919-698-9386 | kelley.brandt@eeco-net.com   |
 | Jessica Parrett | RMA/Warranty  | 804-915-4708 | jessica.parrett@eeco-net.com |
 
 ## [Powertran](https://powertran.com/)
