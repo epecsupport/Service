@@ -11,6 +11,6 @@ autolink: true
 - [Erico to Mar-Bal interchange](support/marbal.html)
 
 - [Quotable Lead Times](support/leadtimes.html)
-- [Sample Job Scopes](suppert/jobscopes.html)
+- [Sample Job Scopes](support/jobscopes.html)
 <!-- https://raw.githubusercontent.com/epecsupport/Service/main/library/MPC-Breaker-Job-Aid.pdf -->
 
