@@ -1,11 +1,12 @@
 ---
 layout: default
 title: EPEC Field Documentation
+autolink: true
 ---
 
 # EPEC Field Assists
 
-### [3WA / ETU600](3WA.html) / [(en Español)](3WA_ES.html)
+### [Siemens Breaker Information](siemens.html)
 
 ### [Standard Hardware](hardware.html)
 
