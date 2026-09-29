@@ -6,13 +6,13 @@ title: 3WA / ETU600
 ## 3WA / ETU600
 
 ### Rotary switches:
-The ETU600's rotary switches override any corresponding parameter set through the onboard display or PowerConfig, unless in the **e.SET** position.
+The ETU600's rotary switches override any corresponding parameter set through the onboard display or PowerConfig, unless in the **e.SET** position.  Note that the switches must be set *between* the lines and not on them, otherwise the trip unit will not read the settings correctly. 
 
 ### Option Plug:
 The option plug (referred to as "rating plug" on 3WL) must be fully seated until it clicks, or it can cause error codes to appear.  Note that care must be taken to avoid bending the pins inside the socket, as this can permanently damage the ETU.  
 
-### Bench testing not possible outside of breaker not possible:
-An ETU600 will NOT power up when disconnected from the ACB, even with an external power source.  
+### ETU600 bench testing outside of breaker:
+It is possible to "bench test" an ETU600, however you must have a breaker harness to do so.  At the minimum, the large X21 connector above the voltage tap cradle must be connected, as well as the two smaller black connectors to the TUI600 (USB/Bluetooth) module on the back of the trip unit.  This will allow the breaker to be powered via the USB port or the 24VDC control power connections.  Depending on how much of the :	
 
 ### Power, USB cable, and PC specifics:
 If the trip unit needs to be powered via USB, it must have a native USB-C port and the ability to deliver 1.5A at 5VDC.  
@@ -21,6 +21,8 @@ To communicate with the trip unit via USB, a PC with a native USB 3.2 "Power Del
 
 ### DAS+ mode (AERMS): 
 DAS+/AERMS can only be deactivated by the same method it was activated.  This is a safety lockout to ensure that the breaker is not accidently switched out of DAS+ mode while someone has the equipment open.  DAS+ mode will be indicated by a bright blue LED, 4th from the left, under the F2 button.
+
+Note that DAS+ conditions can be "stacked".  If it is set by multiple sources (i.e., key switch, keypad, COM190, and Bluetooth), ALL of those sources must be toggled off for the trip unit to come out of DAS+ mode.  
 
 ### Battery and indicator: 
 The battery indicator has three "bars", but these bars do not actually deplete like most battery operated devices.  The indicator is either "full", indicating a good battery, or "empty", indicating the battery needs replacement.  The battery only powers the internal clock, and is a size ½AA, 3.6V lithium.  Siemens catalogue number 3WA9111-0EE81.
@@ -61,7 +63,10 @@ The trip unit can only log trips based on what it can detect through the breaker
 - 3WL shunt trips, closing coils, and charging motors are confirmed interchangeable with 3WA.
 
 ### COM 190 Specifics:
-- It is a known limitation that the ETU600 cannot process a firmware update via COM 190.  Unfortunately mass firmware updates must be delivered individually, via the USB-C connection.
+- It is a known limitation that the ETU600 cannot process a firmware update via COM 190.  Unfortunately mass firmware updates must be delivered individually, via the USB-C connection, and take about 10 minutes.
 
 ### Error codes and possible fixes:
-- ERROR OPTION PLUG - Check that option plug is correct for the frame size.  Disconnect control power, remove plug, check for bent pins inside trip unit socket or damage to connector on back of option plug.  Reseat until it clicks into place.  Restore control power and re-check. 
+- ERROR OPTION PLUG - Check that option plug is correct for the frame size.  Disconnect control power, remove plug, check for bent pins inside trip unit socket or damage to connector on back of option plug.  Reseat until it clicks into place.  Restore control power and re-check.
+- ERROR N-CT - If neutral CT is present, check connection and wiring.  If neutral CT is not present, check for a jumper at X8-9 and X8-10.  If no jumper is present, disconnect control power, connect terminals X8-9 and X8-10 with a jumper or piece of wire, then restore control power and re-check.  If bench testing, locate the wires labeled with these terminal numbers and connect them with something like a Wago connector. 
+- ERROR GF-CT - If ground fault CT is present, check connection and wiring.  If ground fault CT is not present, check for a jumper at X8-11 and X8-12.  If no jumper is present, disconnect control power, connect terminals X8-11 and X8-12 with a jumper or piece of wire, then restore control power and re-check.  If bench testing, locate the wires labeled with these terminal numbers and connect them with something like a Wago connector. 
+- ERROR CURRENT SENSOR (1/2/3) - Siemens troubleshooting will indicate a failed phase CT.  While these are accessible, they're not offered by Siemens as a field replaceable part.  Note that this error can be caused by a summation error if ground fault sensing is set to "direct" or "dual" when there is no ground fault CT present.  If a GF-CT is not used, set ground fault to "residual" in the protection settings.  If bench testing, connect a set of phase CTs if available.
