@@ -6,6 +6,8 @@ autolink: true
 
 ## 3WA / ETU600
 
+##[Troubleshooting](/siemens/3WAts.html)
+
 ### Rotary switches:
 The ETU600's rotary switches override any corresponding parameter set through the onboard display or PowerConfig, unless in the **e.SET** position.  Note that the switches must be set *between* the lines and not on them, otherwise the trip unit will not read the settings correctly. 
 
