@@ -6,14 +6,6 @@ autolink: true
 
 ## 3WA / ETU600
 
----
-layout: default
-title: 3WA / ETU600
-autolink: true
----
-
-## 3WA / ETU600
-
 ### Interruptores giratorios:
 Los interruptores giratorios de la ETU600 anulan cualquier parámetro correspondiente configurado mediante la pantalla integrada o PowerConfig, salvo que estén en la posición **e.SET**. Tenga en cuenta que los interruptores deben colocarse *entre* las líneas y no sobre ellas; de lo contrario, la unidad de disparo no interpretará correctamente los ajustes.
 
