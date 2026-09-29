@@ -25,10 +25,13 @@ DAS+/AERMS can only be deactivated by the same method it was activated.  This is
 
 DAS+ conditions can be "stacked".  If it is set by multiple sources (i.e., key switch, keypad, COM190, and Bluetooth), ALL of those sources must be toggled off for the trip unit to come out of DAS+ mode.  If a trip unit is not coming out of DAS+ mode, connect it to a PC running the latest version of PowerConfig.  Load the 3WA, go to the "Measurements" page (gauge button), and click "Go Online" (sunglasses button).  Depending on connection, it may take up to a minute for the data to update.  Under Status Values -> Status -> DAS+ enabled from, there should be 15 true/false values.  Any values that show as "true" need to be resolved via that method before the ETU will come out of DAS+ mode.  Some explanations of the types follow:
 
-ETU display - DAS+ was activated via the ETU display and keypad.  Go back to the main menu, press the DAS+ softkey, and the option to reset should appear.
-ETU input - DAS+ was activated via the ETU digital input.  On QT equipment, this should be the key switch.  Turn it to "off".  If it was already off, turn it "on" and see if that changes the value.  If it does, the AERMS is wired improperly.
-COM A/COM B - DAS+ was activated via COM190 (PROFINET/Modbus TCP) or COM150 (Modbus RTU).  The breaker will need to receive a signal to disable this bit through its comm module to deactivate DAS+.  There is no bypass.
-TUI600 - DAS+ was activated by either USB or Bluetooth.  The firmware does not differentiate between the two, and you should be able to deactivate it through PowerConfig via PC or the mobile app.
+**ETU display** - DAS+ was activated via the ETU display and keypad.  Go back to the main menu, press the DAS+ softkey, and the option to reset should appear.
+
+**ETU input** - DAS+ was activated via the ETU digital input.  On QT equipment, this should be the key switch.  Turn it to "off".  If it was already off, turn it "on" and see if that changes the value.  If it does, the AERMS is wired improperly.
+
+**COM A/COM B** - DAS+ was activated via COM190 (PROFINET/Modbus TCP) or COM150 (Modbus RTU).  The breaker will need to receive a signal to disable this bit through its comm module to deactivate DAS+.  There is no bypass.
+
+**TUI600** - DAS+ was activated by either USB or Bluetooth.  The firmware does not differentiate between the two, and you should be able to deactivate it through PowerConfig via PC or the mobile app.
 
 ### Bluetooth connection tips:
 PowerConfig mobile is extremely buggy and will often refuse or fail a connection to the ETU.  If it fails on an incorrect pairing code even though you've entered the correct one, force quit the app and try to reconnect.  I've not found a reliable way to make it work other than trying over and over. 
