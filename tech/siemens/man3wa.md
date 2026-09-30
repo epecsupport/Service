@@ -7,7 +7,7 @@ autolink: true
 ## 3WA Documentation:
 
 ### Master Manual
-- [3WA2 UL480 North American market 800A - 5000A](https://drive.google.com/file/d/1nxXnMAGOg2YTzq6JiqmLDpfcgsn2pO85/view?usp=sharing)
+- [3WA2 UL489 North American market 800A - 5000A](https://drive.google.com/file/d/1nxXnMAGOg2YTzq6JiqmLDpfcgsn2pO85/view?usp=sharing)
 
 ### Compact Instruction Sheets
 - 3WA2 ACB Fixed-mount [View](manuals/3wa_compact_fixed.pdf) / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/tech/siemens/manuals/3wa_compact_fixed.pdf)
