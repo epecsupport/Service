@@ -9,7 +9,7 @@ autolink: true
 ### 3WA ACB
 - [Manuals/Install Sheets](man3wa.html)
 - [Tips & Tricks](3WA.html) / [En Español](3WA_ES.html)
-- [Troubleshooting](3WAts.html)
+- [Troubleshooting](3WA.html#Troubleshooting) / [Solución de problemas](3WA_ES.html#Solución-de-problemas)
 - Secondary Disconnect Pinout 
 - Shunt Trip / Closing Coil / Undervoltage Release
 - Charging Motor
