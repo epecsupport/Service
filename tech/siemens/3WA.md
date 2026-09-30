@@ -58,6 +58,8 @@ The trip unit can only log trips based on what it can detect through the breaker
 ### COM 190 Specifics:
 - It is a known limitation that the ETU600 cannot process a firmware update via COM 190.  Unfortunately mass firmware updates must be delivered individually, via the USB-C connection, and take about 10 minutes.
 
+## Troubleshooting
+
 ### ETU600 bench testing outside of breaker:
 It is possible to "bench test" an ETU600, however you must have a breaker harness to do so.  At the minimum, the large X21 connector above the voltage tap cradle must be connected, as well as the two smaller black connectors to the TUI600 (USB/Bluetooth) module on the back of the trip unit.  This will allow the trip unit to be powered via the USB port or the 24VDC control power connections.  Depending on how much of the breaker components are connected, you may get several error codes as detailed in the "Error codes and possible fixes" section below. 	
 
