@@ -26,4 +26,4 @@ autolink: true
 
 ### Powertran
 
-### SEL
+### [SEL (Schweitzer Engineering Laboratories)](sel.html)
