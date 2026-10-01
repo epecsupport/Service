@@ -16,6 +16,13 @@ HLI Enterprises, LLC\
 (980) 722-1547\
 (877) 987-9021
 
+**What Greg Needs**
+- Job number
+- Number of pallets and a rough description of the contents (switchboard, copper bars on pallet, power center, etc.)
+- Dimensions of each pallet (L x W x H) and approximate weight (see [standard dims](stddims.html) page for some common ones)
+- Pickup address with contact name/number if outside QT/Goshen
+- Delivery address with contact name/number
+
 ### Addresses:
 
 **EPEC Office**\
