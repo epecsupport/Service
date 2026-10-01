@@ -8,7 +8,7 @@ autolink: true
 
 ### [Siemens Breaker Information](tech/siemens/siemens.html)
 
-### [Other Technical Info By Vendor](tech/otech.html)
+### [Other Technical Info By Subject](tech/otech.html)
 
 ### [QT Standard Hardware](hardware.html)
 
