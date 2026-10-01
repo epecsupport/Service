@@ -4,7 +4,7 @@ title: Other Technical Info By Subject
 autolink: true
 ---
 
-## Other Technical Information By Vendor
+## Other Technical Information By Subject
 
 ### ABB
 
