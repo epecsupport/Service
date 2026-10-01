@@ -8,6 +8,7 @@ autolink: true
 
 ### PT panel mounting
 - Carriage bolts: Install 5/16" carriage bolts with 3/8" washers to clear shank of carriage bolt.
+- Drill 3/8" hole.
 
 ### CT Information
 - Relay CTs must be on the utility side of the equipment. 
