@@ -60,6 +60,26 @@
       th, td { border-color: #444; }
       th { background: #2d2d2d; }
     }
+
+    mark, .highlight {
+      background: #fff3a3;
+      color: #222;
+      padding: 1px 4px;
+      border-radius: 3px;
+    }
+    .warning { color: #b35900; font-weight: 600; }
+    .danger { color: #cc0000; font-weight: 600; }
+    .note { color: #0066cc; font-style: italic; }
+
+    @media (prefers-color-scheme: dark) {
+      mark, .highlight {
+        background: #665c00;
+        color: #fff3a3;
+      }
+      .warning { color: #ffb366; }
+      .danger { color: #ff6b6b; }
+      .note { color: #6db3f2; }
+    }
   </style>
 </head>
 <body>
