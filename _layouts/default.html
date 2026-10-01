@@ -7,6 +7,8 @@
   <link rel="icon" href="/Service/assets/favicon.ico">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Field Docs">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta name="build-time" content="{{ site.time | date: '%s' }}">
   <title>{{ page.title }}</title>
   <style>
     body {
@@ -117,5 +119,21 @@
     autoLinkPage(document.body);
   </script>
   {% endif %}
+
+  <script>
+    (async () => {
+      try {
+        const current = document.querySelector('meta[name="build-time"]').content;
+        const res = await fetch(window.location.pathname + '?_=' + Date.now(), { cache: 'no-store' });
+        const html = await res.text();
+        const match = html.match(/<meta name="build-time" content="(\d+)">/);
+        if (match && match[1] !== current) {
+          window.location.reload();
+        }
+      } catch (e) {
+        // offline or no signal — just keep showing what's already loaded
+      }
+    })();
+  </script>
 </body>
 </html>
