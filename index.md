@@ -8,11 +8,13 @@ autolink: true
 
 ### [Siemens Breaker Information](tech/siemens/siemens.html)
 
-### [Standard Hardware](hardware.html)
+### [Other Technical Info By Vendor](tech/otech.html)
 
-### [Drawing Index](dwgindex.html)
+### [QT Standard Hardware](hardware.html)
 
-### [Service Bulletins](bulletins.html)
+### [QT Drawing Index](dwgindex.html)
+
+### [EPEC Service Bulletins](bulletins.html)
 
 ### [Shipping Accounts & Addresses](shipping.html)
 
