@@ -19,11 +19,12 @@ Unless it's a minor update, try and enter a brief description in the single line
 All files should be .md, but the links should be .html, GitHub creates the HTML automatically.
 
 Every new page should start with the following:
---- (three dashes)
-layout: default (sets the default page layout)
-title: (put the page title here, this is what displays on the browser tab/bookmark)
-autolink: true (enables automatic telephone and HTML links)
+--- (three dashes)\
+layout: default (sets the default page layout)\
+title: (put the page title here, this is what displays on the browser tab/bookmark)\
+autolink: true (enables automatic telephone and HTML links)\
 --- (three dashes)
 
+GitHub's file size limit is 25MB.  Larger files like breaker master manuals will have to be linked to an outside source.  I have a Google Drive for public-facing information like this. 
 
 
