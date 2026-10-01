@@ -15,7 +15,7 @@ autolink: true
 
 ### 3WL ACB
 - [Manuals/Install Sheets](man3wl.html)
-- Secondary Disconnect Pinout [View](manuals/3wa_section_pinout.pdf) / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/tech/siemens/manuals/3wa_section_pinout.pdf)
+- Secondary Disconnect Pinout [View](manuals/3wl_section_pinout.pdf) / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/tech/siemens/manuals/3wl_section_pinout.pdf)
 
 ### 3VA MCCB
 - [Manuals/Install Sheets](man3va.html)
