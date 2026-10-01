@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Other Technical Info By Vendor
+title: Other Technical Info By Subject
 autolink: true
 ---
 
@@ -13,6 +13,8 @@ autolink: true
 ### Bender
 
 ### [Boltswitch](boltswitch/boltswitch.html)
+
+### [CT / PT Information](ctpt.html)
 
 ### DEHN
 
