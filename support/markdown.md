@@ -6,35 +6,41 @@ autolink: true
 
 ## Markdown Tips:
 
-Markdown syntax cheat sheet: https://www.markdownguide.org/cheat-sheet/
+- Markdown syntax cheat sheet: https://www.markdownguide.org/cheat-sheet/
 
-Markdown table generator: https://www.tablesgenerator.com/markdown_tables
+- Markdown table generator: https://www.tablesgenerator.com/markdown_tables
 
-You can force a new line with a backslash at the end of the line.  This is handy for addresses and other tight multiline content.
+- You can force a new line with a backslash at the end of the line.  This is handy for addresses and other tight multiline content.
 
 ## Page Coding Tips:
 
-Unless it's a minor update, try and enter a brief description in the single line box when you commit changes.
+- Unless it's a minor update, try and enter a brief description in the single line box when you commit changes.
 
-All files should be .md, but the links should be .html, GitHub creates the HTML automatically.
+- All files should be .md, but the links should be .html, GitHub creates the HTML automatically.
 
-Every new page should start with the following:\
+- Every new page should start with the following:\
 --- *(three dashes)*\
 layout: default *(sets the default page layout)*\
 title: *(put the page title here, this is what displays on the browser tab/bookmark)*\
 autolink: true *(enables automatic telephone and HTML links)*\
 --- *(three dashes)*
 
-GitHub's file size limit is 25MB.  Larger files like breaker master manuals will have to be linked to an outside source.  I have a Google Drive for public-facing information like this. 
+- GitHub's file size limit is 25MB.  Larger files like breaker master manuals will have to be linked to an outside source.  I have a Google Drive for public-facing information like this. 
 
-Test public-facing pages with an Incognito window to be sure they work without cached logins, etc.
+- Test public-facing pages with an Incognito window to be sure they work without cached logins, etc.
 
-Scripts exist to handle highlighting and warning text:
+- Scripts exist to handle highlighting and warning text:
 
 ```
 <span class="warning">Caution:</span> fully seat the option plug or it can cause error codes.
 <span class="danger">Do not</span> bend the pins — this can permanently damage the ETU.
 <mark>DAS+/AERMS</mark> can only be deactivated by the same method used to activate it.
 ```
+
+Will render as:
+
+<span class="warning">Caution:</span> fully seat the option plug or it can cause error codes.
+<span class="danger">Do not</span> bend the pins — this can permanently damage the ETU.
+<mark>DAS+/AERMS</mark> can only be deactivated by the same method used to activate it.
 
 
