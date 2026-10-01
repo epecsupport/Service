@@ -18,7 +18,7 @@ Unless it's a minor update, try and enter a brief description in the single line
 
 All files should be .md, but the links should be .html, GitHub creates the HTML automatically.
 
-Every new page should start with the following:
+Every new page should start with the following:\
 --- (three dashes)\
 layout: default (sets the default page layout)\
 title: (put the page title here, this is what displays on the browser tab/bookmark)\
