@@ -23,7 +23,8 @@ autolink: true
 
 
 ### ACB General
-
+- <mark>When work is completed, leave the breaker in the OPEN / CHARGED condition.</mark>
+- <mark>All trip unit setting changes should be performed with the breaker in the OPEN condition.</mark>
 
 ### MCCB General
 
