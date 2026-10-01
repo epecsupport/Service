@@ -27,4 +27,6 @@ autolink: true *(enables automatic telephone and HTML links)*\
 
 GitHub's file size limit is 25MB.  Larger files like breaker master manuals will have to be linked to an outside source.  I have a Google Drive for public-facing information like this. 
 
+Test public-facing pages with an Incognito window to be sure they work without cached logins, etc.
+
 
