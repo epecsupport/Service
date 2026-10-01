@@ -6,7 +6,7 @@ autolink: true
 
 # EPEC Field Assists
 
-### [Siemens Breaker Information](tech/siemens/siemens.html)
+### [Siemens Technical Information](tech/siemens/siemens.html)
 
 ### [Other Technical Info By Subject](tech/otech.html)
 
