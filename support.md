@@ -12,5 +12,7 @@ autolink: true
 
 - [Quotable Lead Times](support/leadtimes.html)
 - [Sample Job Scopes](support/jobscopes.html)
+
+- [Markdown & Page Coding Tips](support/markdown.md)
 <!-- https://raw.githubusercontent.com/epecsupport/Service/main/library/MPC-Breaker-Job-Aid.pdf -->
 
