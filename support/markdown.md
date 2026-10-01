@@ -39,8 +39,8 @@ autolink: true *(enables automatic telephone and HTML links)*\
 
 Will render as:
 
-<span class="warning">Caution:</span> fully seat the option plug or it can cause error codes.
-<span class="danger">Do not</span> bend the pins — this can permanently damage the ETU.
+<span class="warning">Caution:</span> fully seat the option plug or it can cause error codes.\
+<span class="danger">Do not</span> bend the pins — this can permanently damage the ETU.\
 <mark>DAS+/AERMS</mark> can only be deactivated by the same method used to activate it.
 
 
