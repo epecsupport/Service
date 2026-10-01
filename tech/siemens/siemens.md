@@ -15,9 +15,7 @@ autolink: true
 
 ### 3WL ACB
 - [Manuals/Install Sheets](man3wl.md)
-- ETU 745
-- ETU 776
-- Secondary Disconnect Pinout
+- Secondary Disconnect Pinout [View](manuals/3wa_section_pinout.pdf) / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/tech/siemens/manuals/3wa_section_pinout.pdf)
 
 ### 3VA MCCB
 - [Manuals/Install Sheets](man3va.md)
