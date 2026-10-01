@@ -14,11 +14,11 @@ autolink: true
 - [NOTICE ON D09 BREAKER OPTION](d09.html)
 
 ### 3WL ACB
-- [Manuals/Install Sheets](man3wl.md)
+- [Manuals/Install Sheets](man3wl.html)
 - Secondary Disconnect Pinout [View](manuals/3wa_section_pinout.pdf) / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/tech/siemens/manuals/3wa_section_pinout.pdf)
 
 ### 3VA MCCB
-- [Manuals/Install Sheets](man3va.md)
+- [Manuals/Install Sheets](man3va.html)
 
 
 ### ACB General
