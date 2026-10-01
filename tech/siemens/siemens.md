@@ -16,7 +16,7 @@ autolink: true
 ### 3WL ACB
 - [Manuals/Install Sheets](man3wl.html)
 - Secondary Disconnect Pinout [View](manuals/3wl_section_pinout.pdf) / [Download](https://raw.githubusercontent.com/epecsupport/Service/main/tech/siemens/manuals/3wl_section_pinout.pdf)
-- ETU745/ETU776 Trip Parameters [Quick](wltrip.md) [Detailed](/Service/Library/TSB20251212.pdf)
+- ETU745/ETU776 Trip Parameters [Quick](wltrip.md) / [Detailed](/Service/Library/TSB20251212.pdf)
 
 ### 3VA MCCB
 - [Manuals/Install Sheets](man3va.html)
