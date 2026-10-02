@@ -48,7 +48,7 @@ EPEC ship-to code: 32805
 | Jae Schalk | 248-808-2706 | jae@powertran.com |
 
 ## [QT Corporation Administration, Accounting, and Wilson Shop](https://qt-corporation.com/)
-Accounting Office: 1815 Forest Hills Road W, Wilson NC 27893
+Accounting Office: 1815 Forest Hills Road W, Wilson NC 27893\
 Wilson Facility: 2700 Forest Hills Loop SW, Wilson NC 27893
 
 | Name              | Title                   | Location      | Phone             | Email                             |
