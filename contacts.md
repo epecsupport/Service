@@ -13,8 +13,8 @@ NOTE: Customers can reach out to Siemens via this method for advanced troublesho
 | Siemens Technical Support 	| 800-333-7421 	| [https://support.industry.siemens.com](https://support.industry.siemens.com) 	|
 
 ## [Electrical Equipment Company (EECO)](https://eecoonline.com)
-1440 Diggs Dr, Raleigh NC 27603
-QT Account no: 16911
+1440 Diggs Dr, Raleigh NC 27603\
+QT Account no: 16911\
 EPEC ship-to code: 32805
 
 | Name            | Title         | Phone        | Email                        |
@@ -25,6 +25,7 @@ EPEC ship-to code: 32805
 | Jessica Parrett | RMA/Warranty  | 804-915-4708 | jessica.parrett@eeco-net.com |
 
 ## [Goshen Engineering](https://goshenengineering.com/)
+439 NC Hwy 55 E, Mount Olive NC 28365
 
 | Name           | Title                      | Phone        | Email                          |
 |----------------|----------------------------|--------------|--------------------------------|
@@ -47,6 +48,8 @@ EPEC ship-to code: 32805
 | Jae Schalk | 248-808-2706 | jae@powertran.com |
 
 ## [QT Corporation Administration, Accounting, and Wilson Shop](https://qt-corporation.com/)
+Accounting Office: 1815 Forest Hills Road W, Wilson NC 27893
+Wilson Facility: 2700 Forest Hills Loop SW, Wilson NC 27893
 
 | Name              | Title                   | Location      | Phone             | Email                             |
 |-------------------|-------------------------|---------------|-------------------|-----------------------------------|
@@ -64,6 +67,7 @@ EPEC ship-to code: 32805
 | Duane Johnson     | Warehouse               | QT Wilson     | 919-971-1590      | duanejohnson@qt-corporation.com   |
 
 ## [QT Goldsboro Manufacturing Plant](https://qt-corporation.com/)
+501 N James St, Goldsboro NC 27530
 
 | Name           | Title                      | Location     | Phone        | Email                            |
 |----------------|----------------------------|--------------|--------------|----------------------------------|
