@@ -13,7 +13,7 @@ NOTE: Customers can reach out to Siemens via this method for advanced troublesho
 | Siemens Technical Support 	| 800-333-7421 	| [https://support.industry.siemens.com](https://support.industry.siemens.com) 	|
 
 ## [Electrical Equipment Company (EECO)](https://eecoonline.com)
-1440 Diggs Dr, Raleigh NC 27603\
+[1440 Diggs Dr, Raleigh NC 27603](https://maps.app.goo.gl/LHpG66zuPejaAsgc8)\
 QT Account no: 16911\
 EPEC ship-to code: 32805
 
@@ -25,7 +25,7 @@ EPEC ship-to code: 32805
 | Jessica Parrett | RMA/Warranty  | 804-915-4708 | jessica.parrett@eeco-net.com |
 
 ## [Goshen Engineering](https://goshenengineering.com/)
-439 NC Hwy 55 E, Mount Olive NC 28365
+[439 E NC 55 Hwy, Mount Olive NC 28365](https://maps.app.goo.gl/5zfHkfziy7wKC4fq5)
 
 | Name           | Title                      | Phone        | Email                          |
 |----------------|----------------------------|--------------|--------------------------------|
@@ -42,14 +42,15 @@ EPEC ship-to code: 32805
 | Cheryl Warren  | Production Assistant       | 919-429-9798 | cwarren@goshenengineering.com  |
 
 ## [Powertran](https://powertran.com/)
+[1605 Bonner St, Ferndale, MI 48220](https://maps.app.goo.gl/o6s1KnxHDVCqFuvU9)
 
 | Name       | Phone        | Email             |
 |------------|--------------|-------------------|
 | Jae Schalk | 248-808-2706 | jae@powertran.com |
 
 ## [QT Corporation Administration, Accounting, and Wilson Shop](https://qt-corporation.com/)
-Accounting Office: 1815 Forest Hills Road W, Wilson NC 27893\
-Wilson Facility: 2700 Forest Hills Loop SW, Wilson NC 27893
+Accounting Office: [1815 Forest Hills Road W, Wilson NC 27893](https://maps.app.goo.gl/62XMDhEyyWQsagEo8)\
+Wilson Facility: [2700 Forest Hills Loop SW, Wilson NC 27893](https://maps.app.goo.gl/KPr4og716kuvsqfB9)
 
 | Name              | Title                   | Location      | Phone             | Email                             |
 |-------------------|-------------------------|---------------|-------------------|-----------------------------------|
@@ -67,7 +68,7 @@ Wilson Facility: 2700 Forest Hills Loop SW, Wilson NC 27893
 | Duane Johnson     | Warehouse               | QT Wilson     | 919-971-1590      | duanejohnson@qt-corporation.com   |
 
 ## [QT Goldsboro Manufacturing Plant](https://qt-corporation.com/)
-501 N James St, Goldsboro NC 27530
+[501 N James St, Goldsboro NC 27530](google.com/maps/place/QT+Corporation+-+Goldsboro/data=!4m2!3m1!1s0x0:0x48ae8dc441bd8657?sa=X&ved=1t:2428&ictx=111)
 
 | Name           | Title                      | Location     | Phone        | Email                            |
 |----------------|----------------------------|--------------|--------------|----------------------------------|
