@@ -90,5 +90,5 @@ DAS+ conditions can be "stacked".  If it is set by multiple sources (i.e., key s
 
 **COM A/COM B** - DAS+ was activated via COM190 (PROFINET/Modbus TCP) or COM150 (Modbus RTU).  The breaker will need to receive a signal to disable this bit through its comm module to deactivate DAS+.  There is no bypass.
 
-**TUI600** - DAS+ was activated by either USB or Bluetooth.  The firmware does not differentiate between the two, and you should be able to deactivate it through PowerConfig via PC or the mobile app.
+**TUI600** - This is the USB/Bluetooth "piggyback" module on the back of the ETU.  Note that a TUI600 indication in Powerconfig could mean DAS+ was set by USB or Bluetooth, and possibly BOTH.  It will not tell you which condition is set though, so you'll have to trial and error both the USB and Bluetooth resets to see which one (or both) turns it off.  
 
