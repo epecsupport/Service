@@ -50,7 +50,7 @@ Line side, cable landing points:
 | Bolt, braid to MVT stab       | 1/2"-13 x 3"    | 12  | 110120386 | 10   | 91247A724 | 10  |
 | Bolt, braid to trough bus     | 1/2"-13 x 4"    | 16  | 110120390 | 10   | 91247A728 | 10  |
 | Lock washer for 3/8" bolts    | 3/8"            | 4   | 1133622   | 100  | 92507A120 | 50  |
-| Flat washer for 3/8" bolts    | 3/8"            | 4   | 1133008   | 100  | 98023A117 | 50  |
+| Flat washer for 3/8" bolts    | 3/8"            | 4   | 1133008   | 100  | 90126A208 | 50  |
 | Lock washer for 1/2" bolts    | 1/2"            | 52  | 1133626   | 50   | 92507A130 | 25  |
 | Flat washer for 1/2" bolts    | 1/2"            | 104 | 1133012   | 50   | 98023A118 | 25  |
 | Nut for 1/2" bolts            | 1/2"-13         | 52  | 1136310   | 25   | 95462A033 | 100 |
@@ -69,7 +69,7 @@ Line side, cable landing points:
 | Bolt, unistrut bracket        | 3/8"-16 x 1.25"       | 10  | 110120345 | 50   | 92865A626 | 50  |
 | Bolt, transition joining      | 1/2"-13 x 2.5"        | 16  | 110120384 | 10   | 91247A722 | 10  |
 | Lock washer for 3/8" bolts    | 3/8"                  | 34  | 1133622   | 100  | 92507A120 | 50  |
-| Flat washer for 3/8" bolts    | 3/8"                  | 34  | 1133008   | 100  | 98023A117 | 50  |
+| Flat washer for 3/8" bolts    | 3/8"                  | 34  | 1133008   | 100  | 90126A208 | 50  |
 | Lock washer for 1/2" bolts    | 1/2"                  | 16  | 1133626   | 50   | 92507A130 | 25  |
 | Flat washer for 1/2" bolts    | 1/2"                  | 32  | 1133012   | 50   | 98023A118 | 25  |
 | Nut for 1/2" bolts            | 1/2"-13               | 16  | 1136310   | 25   | 95462A033 | 100 |
@@ -95,7 +95,7 @@ Load side, Eriflex braid to phase bar:
 | Bolt, trough bus to SWBD bus | 1/2"-13 x 2.25" | 32  | 110120383 | 20   | 91247A721 | 10  |
 | Bolt, braid to bus/MVT stab  | 1/2"-13 x 2.75" | 16  | 110120385 | 20   | 91247A723 | 10  |
 | Lock washer for 3/8" bolts   | 3/8"            | 2   | 1133622   | 100  | 92507A120 | 50  |
-| Flat washer for 3/8" bolts   | 3/8"            | 2   | 1133008   | 100  | 98023A117 | 50  |
+| Flat washer for 3/8" bolts   | 3/8"            | 2   | 1133008   | 100  | 90126A208 | 50  |
 | Lock washer for 1/2" bolts   | 1/2"            | 48  | 1133626   | 50   | 92507A130 | 25  |
 | Flat washer for 1/2" bolts   | 1/2"            | 96  | 1133012   | 50   | 98023A118 | 25  |
 | Nut for 1/2" bolts           | 1/2"-13         | 48  | 1136310   | 25   | 95462A033 | 100 |
