@@ -16,7 +16,7 @@ autolink: true
 
 ### [EPEC Service Bulletins](bulletins.html)
 
-### [EPEC Parts Catalogue](/library/partscatalogue/partscat.html)
+### [EPEC Parts Catalogue](library/partscatalogue/partscat.html)
 
 ### [Shipping Accounts & Addresses](shipping.html)
 
