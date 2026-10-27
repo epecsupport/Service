@@ -6,9 +6,9 @@ autolink: true
 
 ## Parts Information:
 
-- [Powertran Breaker Guide](support/mpcbreakers.html)
-- [Insulator Spec Table (Mar-Bal/Erico)](support/marbal.html)
-- [Quotable Lead Times](support/leadtimes.html)
+- [Powertran Breaker Guide](/Service/support/mpcbreakers.html)
+- [Insulator Spec Table (Mar-Bal/Erico)](/Service/support/marbal.html)
+- [Quotable Lead Times](/Service/support/leadtimes.html)
 
 ## QT Specific Parts Diagrams:
 
