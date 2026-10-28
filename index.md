@@ -10,8 +10,6 @@ autolink: true
 
 ### [Other Technical Info By Subject](tech/otech.html)
 
-### [QT Drawing Index](dwgindex.html)
-
 ### [EPEC Service Bulletins](bulletins.html)
 
 ### [Parts Information](library/partscatalogue/partscat.html)
@@ -20,4 +18,6 @@ autolink: true
 
 ### [Contacts](contacts.html)
 
-### [Support Staff Information](support.html)
+### [Support Admin & Quoting](support.html)
+
+### [QT Drawings](dwgindex.html)
