@@ -10,8 +10,6 @@ autolink: true
 
 ### [Other Technical Info By Subject](tech/otech.html)
 
-### [QT Standard Hardware](hardware.html)
-
 ### [QT Drawing Index](dwgindex.html)
 
 ### [EPEC Service Bulletins](bulletins.html)
