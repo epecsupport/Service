@@ -21,3 +21,6 @@ autolink: true
 ### [Support Admin & Quoting](support.html)
 
 ### [QT Drawings](dwgindex.html)
+
+### [Copper Bar Weight Calculator](copper-weight.html)
+

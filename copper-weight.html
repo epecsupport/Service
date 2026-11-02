@@ -1,0 +1,96 @@
+---
+layout: default
+title: Copper Bar Weight Calculator
+---
+<p><a href="./">← EPEC Field Assists</a></p>
+<h1>Copper Bar Weight Calculator</h1>
+<p>Estimate the weight of solid rectangular copper bus bars. Enter dimensions in inches.</p>
+<style>
+  .copper-calculator { max-width: 720px; --line: #ccc; --panel: #f4f4f4; --accent: #0066cc; }
+  .copper-calculator * { box-sizing: border-box; }
+  .copper-calculator .dimensions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .copper-calculator label { display: block; font-weight: 600; }
+  .copper-calculator input { width: 100%; margin-top: 5px; padding: 12px; font: inherit; color: inherit; background: transparent; border: 1px solid var(--line); border-radius: 6px; }
+  .copper-calculator input:focus-visible, .copper-calculator button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .copper-calculator input[aria-invalid="true"] { border-color: #b35900; }
+  .copper-calculator .help { margin: 8px 0 16px; font-size: .9em; }
+  .copper-calculator .actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
+  .copper-calculator button { padding: 10px 16px; font: inherit; color: inherit; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; cursor: pointer; }
+  .copper-calculator .results { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px; margin: 20px 0; }
+  .copper-calculator .results h2 { margin: 0 0 10px; font-size: 1.15em; }
+  .copper-calculator .weight { font-size: clamp(1.5rem, 5vw, 2rem); font-weight: 700; margin: 0; }
+  .copper-calculator .secondary { margin: 0 0 12px; }
+  .copper-calculator .results p:last-child { margin-bottom: 0; }
+  .copper-calculator details { margin-top: 20px; }
+  @media (max-width: 420px) { .copper-calculator .dimensions { grid-template-columns: 1fr; } }
+  @media (prefers-color-scheme: dark) { .copper-calculator { --line: #555; --panel: #2d2d2d; --accent: #6db3f2; } }
+</style>
+<section class="copper-calculator" aria-label="Copper weight calculator">
+  <noscript><p>This calculator needs JavaScript enabled. Formula: length × width × thickness (inches) × 2.54³ × 8.96 ÷ 453.592 = pounds per bar.</p></noscript>
+  <form id="copper-form" novalidate>
+    <div class="dimensions">
+      <label for="bar-length">Length (inches)<input id="bar-length" name="length" type="text" inputmode="decimal" autocomplete="off" aria-describedby="dimension-help" placeholder="e.g. 36"></label>
+      <label for="bar-width">Width (inches)<input id="bar-width" name="width" type="text" inputmode="decimal" autocomplete="off" aria-describedby="dimension-help" placeholder="e.g. 4"></label>
+      <label for="bar-thickness">Thickness (inches)<input id="bar-thickness" name="thickness" type="text" inputmode="decimal" autocomplete="off" aria-describedby="dimension-help" placeholder="e.g. 0.25"></label>
+      <label for="bar-quantity">Number of identical bars<input id="bar-quantity" name="quantity" type="text" inputmode="numeric" autocomplete="off" value="1"></label>
+    </div>
+    <p class="help" id="dimension-help">Use decimals or fractions, such as 0.25, 1/4, or 1 1/2. All dimensions must be greater than zero.</p>
+    <div class="actions"><button type="button" id="load-example">Try an example</button><button type="reset">Clear</button></div>
+  </form>
+  <div class="results" aria-live="polite" aria-atomic="true">
+    <h2>Estimated total weight</h2>
+    <p class="weight" id="total-pounds">— lb</p>
+    <p class="secondary" id="total-kilograms">— kg</p>
+    <p id="per-bar">Per bar: —</p>
+    <p id="calculation-status">Enter all three dimensions to calculate the weight.</p>
+  </div>
+  <p>Rough weight for solid copper only. Holes, cutouts, rounded edges, plating, hardware, and packaging are not included.</p>
+  <details><summary>How the weight is calculated</summary>
+    <p>Uses the same calculation as the original copper bar worksheet:</p>
+    <ol><li>Convert each dimension from inches to centimeters: multiply by 2.54.</li><li>Multiply length × width × thickness to get volume in cm³.</li><li>Multiply volume by copper density, 8.96 g/cm³, to get grams.</li><li>Divide grams by 453.592 for pounds, or by 1,000 for kilograms.</li><li>Multiply by the number of identical bars for the total.</li></ol>
+    <p>Results are displayed to two decimal places. A positive weight below 0.01 is shown as &lt;0.01.</p>
+  </details>
+</section>
+<script>
+(() => {
+  'use strict';
+  const form = document.getElementById('copper-form');
+  const dimensions = ['bar-length', 'bar-width', 'bar-thickness'].map(id => document.getElementById(id));
+  const quantity = document.getElementById('bar-quantity');
+  const output = id => document.getElementById(id);
+  function parseDimension(text) {
+    const value = text.trim();
+    if (/^(?:\d+(?:\.\d*)?|\.\d+)$/.test(value)) return Number(value);
+    const match = value.match(/^(?:(\d+)\s+)?(\d+)\s*\/\s*(\d+)$/);
+    if (!match || Number(match[3]) === 0) return NaN;
+    return Number(match[1] || 0) + Number(match[2]) / Number(match[3]);
+  }
+  function calculate(length, width, thickness, count) {
+    const grams = (length * 2.54) * (width * 2.54) * (thickness * 2.54) * 8.96;
+    return { pounds: grams / 453.592, kilograms: grams / 1000, totalPounds: grams / 453.592 * count, totalKilograms: grams / 1000 * count };
+  }
+  const formatter = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const format = value => value < 0.01 ? '<0.01' : formatter.format(value);
+  function update() {
+    const values = dimensions.map(input => parseDimension(input.value));
+    const count = /^\d+$/.test(quantity.value.trim()) ? Number(quantity.value.trim()) : NaN;
+    dimensions.forEach((input, index) => input.setAttribute('aria-invalid', String(input.value.trim() !== '' && !(Number.isFinite(values[index]) && values[index] > 0))));
+    quantity.setAttribute('aria-invalid', String(!(Number.isSafeInteger(count) && count > 0)));
+    const valid = values.every(value => Number.isFinite(value) && value > 0) && Number.isSafeInteger(count) && count > 0;
+    const result = valid ? calculate(...values, count) : null;
+    const usable = result && Object.values(result).every(value => Number.isFinite(value) && value > 0);
+    output('total-pounds').textContent = usable ? format(result.totalPounds) + ' lb' : '— lb';
+    output('total-kilograms').textContent = usable ? format(result.totalKilograms) + ' kg' : '— kg';
+    output('per-bar').textContent = usable ? 'Per bar: ' + format(result.pounds) + ' lb / ' + format(result.kilograms) + ' kg' : 'Per bar: —';
+    output('calculation-status').textContent = usable ? count.toLocaleString('en-US') + (count === 1 ? ' solid copper bar.' : ' identical solid copper bars.') : valid ? 'These dimensions are outside the supported calculation range.' : dimensions.some(input => input.getAttribute('aria-invalid') === 'true') ? 'Enter valid positive dimensions, such as 0.25 or 1/4.' : quantity.getAttribute('aria-invalid') === 'true' ? 'Enter a positive whole number of bars.' : 'Enter all three dimensions to calculate the weight.';
+  }
+  form.addEventListener('input', update);
+  form.addEventListener('submit', event => { event.preventDefault(); update(); });
+  form.addEventListener('reset', () => { setTimeout(update, 0); });
+  document.getElementById('load-example').addEventListener('click', () => {
+    ['36', '4', '0.25'].forEach((value, index) => { dimensions[index].value = value; });
+    quantity.value = '1'; update();
+  });
+  update();
+})();
+</script>
