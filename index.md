@@ -8,6 +8,8 @@ autolink: true
 
 ### [Siemens Technical Information](tech/siemens/siemens.html)
 
+### [Hyundai Technical Information](tech/hyundai/hyundai.html)
+
 ### [Other Technical Info By Subject](tech/otech.html)
 
 ### [EPEC Service Bulletins](bulletins.html)
