@@ -18,7 +18,9 @@ autolink: true
 
 ### [Shipping Accounts & Addresses](shipping.html)
 
-### [Contacts](contacts.html)
+### [Contacts - General](contacts.html)
+
+### [Contacts - Field Support Vendors](fieldcontacts.html)
 
 ### [Support Admin & Quoting](support.html)
 
