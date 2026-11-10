@@ -16,4 +16,6 @@ autolink: true
 - [OCR (trip unit) Replacement Manual](ocr_rep_en.pdf)
 - [Key Lock Installation Manual](keylock_inst_en.pdf)
 
-  
+### Videos:
+- [Key Lock Installation - Internal](https://youtube.com/shorts/qc-FRQlmxUA?feature=share)
+- [Key Lock Installation - Cover](https://youtu.be/mWDES3rB9-Q)
