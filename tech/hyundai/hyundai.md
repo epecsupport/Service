@@ -15,7 +15,9 @@ autolink: true
 - [Series HGL 60P Manual (English)](ul_hgl_60p_en.pdf)
 - [OCR (trip unit) Replacement Manual](ocr_rep_en.pdf)
 - [Key Lock Installation Manual](keylock_inst_en.pdf)
+- [Bell Alarm Switch Installation Manual](ba_manual_en.pdf)
 
 ### Videos:
 - [Key Lock Installation - Internal](https://youtube.com/shorts/qc-FRQlmxUA?feature=share)
 - [Key Lock Installation - Cover](https://youtu.be/mWDES3rB9-Q)
+- [MHT Installation](https://youtu.be/FcG0K0cneys?si=RJ59f9fURW-vA1CG)
