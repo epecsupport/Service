@@ -21,3 +21,8 @@ autolink: true
 - [Key Lock Installation - Internal](https://youtube.com/shorts/qc-FRQlmxUA?feature=share)
 - [Key Lock Installation - Cover](https://youtu.be/mWDES3rB9-Q)
 - [MHT Installation](https://youtu.be/FcG0K0cneys?si=RJ59f9fURW-vA1CG)
+
+- [OCR (Trip Unit) Replacement](https://www.youtube.com/watch?v=hz1R3T7-RSw)
+- [Shunt Trip/Closing Coil/UVR Replacement](https://www.youtube.com/watch?v=NEVUFpjG1-g)
+- [Charging Motor Replacement](https://www.youtube.com/watch?v=-rlz_haaNRo)
+- [ACB Troubleshooting](https://www.youtube.com/watch?v=xhzsTXY4zPE)
