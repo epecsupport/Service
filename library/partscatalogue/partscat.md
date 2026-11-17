@@ -11,6 +11,9 @@ autolink: true
 - [QT Hardware Quick Reference](/Service/hardware.html)
 - [Quotable Lead Times](/Service/support/leadtimes.html)
 
+## Siemens:
+- [3WA Parts & Accessories](/Service/tech/siemens/3waparts.pdf)
+
 ## QT Specific Parts Diagrams:
 
 ### Pull Boxes:
