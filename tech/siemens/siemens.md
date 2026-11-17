@@ -20,7 +20,7 @@ autolink: true
 
 ### 3VA MCCB
 - [Manuals/Install Sheets](man3va.html)
-
+- [3VA Frame Size Comparison](3vasize.pdf)
 
 ### ACB General
 - <mark>When work is completed, leave the breaker in the OPEN / CHARGED condition.</mark>
