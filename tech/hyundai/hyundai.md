@@ -10,6 +10,9 @@ autolink: true
 - [Breaker Assemblies](breakers.html)
 - [Parts & Accessories](accessories.html)
 
+### ACB Catalogue with Options & Accessories:
+- [HGL-ACB UL Catalogue](acb_cat.pdf)
+
 ### Manuals:
 - [Series HGL 4P Manual (English)](ul_hgl_4p_en.pdf)
 - [Series HGL 60P Manual (English)](ul_hgl_60p_en.pdf)
